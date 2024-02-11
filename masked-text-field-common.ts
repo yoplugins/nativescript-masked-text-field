@@ -154,7 +154,7 @@ export abstract class MaskedTextFieldBase extends TextField implements MaskedTex
         return currentValueSplit.join("");        
     }
 
-    protected abstract _setNativeText(value: string);
+    public abstract _setNativeText(reset?: boolean);
 
     private _getNextRegExpToken(start: number, isBackwardsIn?: boolean) {
         const step = (isBackwardsIn ? -1 : 1);

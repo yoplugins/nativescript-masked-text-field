@@ -1,0 +1,102 @@
+Arguments: 
+  /Users/shamshudinov/.nvm/versions/node/v14.19.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/shamshudinov/.rvm/gems/ruby-2.7.2/bin:/Users/shamshudinov/.rvm/gems/ruby-2.7.2@global/bin:/Users/shamshudinov/.rvm/rubies/ruby-2.7.2/bin:/Users/shamshudinov/.nvm/versions/node/v14.19.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/shamshudinov/work/yoplugins/nativescript-masked-text-field/node_modules/.bin:/Users/shamshudinov/Library/Android/sdk/platform-tools:/Users/shamshudinov/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@nativescript%2fplatform: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "nativescript-masked-text-field",
+    "version": "4.0.3",
+    "description": "A NativeScript masked text field widget.",
+    "main": "masked-text-field",
+    "typings": "masked-text-field.d.ts",
+    "nativescript": {
+      "platforms": {
+        "android": "5.0.0",
+        "ios": "5.0.0"
+      },
+      "plugin": {
+        "nan": "true",
+        "pan": "true",
+        "core3": "true",
+        "category": "Interface"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/PeterStaev/nativescript-masked-text-field"
+    },
+    "scripts": {
+      "demo-ios": "grunt build && cd demo && tns run ios",
+      "demo-android": "grunt build && cd demo && tns run android",
+      "demo-ng-ios": "grunt build && cd demo-ng && tns run ios",
+      "demo-ng-android": "grunt build && cd demo-ng && tns run android"
+    },
+    "keywords": [
+      "NativeScript",
+      "masked input",
+      "mask",
+      "masked text field",
+      "phone",
+      "ssn",
+      "tangra"
+    ],
+    "author": "Peter Staev <peter@tangrasoft.com>",
+    "contributors": [
+      "newapx (https://github.com/newapx)"
+    ],
+    "license": "Apache-2.0",
+    "peerDependencies": {
+      "tns-core-modules": ">=5"
+    },
+    "devDependencies": {
+      "@angular/common": "^12.2.5",
+      "@angular/compiler": "^12.2.5",
+      "@angular/compiler-cli": "^12.2.5",
+      "@angular/core": "^12.2.5",
+      "@angular/forms": "^12.2.5",
+      "@angular/platform-browser": "^12.2.5",
+      "@angular/platform-browser-dynamic": "^12.2.5",
+      "@angular/router": "^12.2.5",
+      "@nativescript/angular": "^12.2.0",
+      "@nativescript/core": "^8.1.5",
+      "@nativescript/platform": "^8.1.5",
+      "grunt": "1.0.1",
+      "grunt-contrib-clean": "1.1.0",
+      "grunt-contrib-copy": "1.0.0",
+      "grunt-exec": "2.0.0",
+      "rxjs": "~7.3.0",
+      "tslint": "~5.1.0",
+      "typescript": "^4.3.5",
+      "zone.js": "~0.11.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

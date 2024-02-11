@@ -16,7 +16,7 @@ limitations under the License.
 import { Directive, forwardRef } from "@angular/core";
 import { NG_VALUE_ACCESSOR } from "@angular/forms";
 
-import { TextValueAccessor } from "nativescript-angular/forms/value-accessors/text-value-accessor";
+//import { TextValueAccessor } from "nativescript-angular/forms/value-accessors/text-value-accessor";
 
 const MASKED_TEXT_VALUE_ACCESSOR = {
     provide: NG_VALUE_ACCESSOR,
